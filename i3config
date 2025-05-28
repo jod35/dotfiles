@@ -48,10 +48,14 @@ floating_modifier $mod
 bindsym $mod+Return exec i3-sensible-terminal
 
 # kill focused window
-bindsym $mod+Shift+q kill
+bindsym $mod+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id dmenu_run
+bindsym $mod+d exec --no-startup-id rofi -show drun
+
+#start nautilus
+bindsym $mod+n exec --no-startup-id nautilus
+
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -183,7 +187,7 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3blocks
-	position top
+	position bottom
 }
 
 
@@ -195,5 +199,10 @@ gaps outer 2px
 default_border pixel 1
 default_floating_border pixel 1
 
-exec --no-startup-id picom -b;
+exec --no-startup-id picom -b
+
+exec --no-startup-id nitrogen --restore
+
+exec --no-startup-id xrandr --output eDP-1 --primary --mode 1366x768 --pos 1920x312 --rotate normal --output HDMI-1 --mode 1920x1080 --pos 0x0 --rotate normal --output DP-1 --off --output HDMI-2 --off
+
 
