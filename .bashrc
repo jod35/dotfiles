@@ -165,19 +165,9 @@ eval "$(pyenv virtualenv-init -)"
 alias obsidian="~/.obsidian/Obsidian-1.8.10.AppImage"
 alias skr="screenkey --font 'JetBrains Mono' -s small --bg-color '#282a36' --font-color '#f8f8f2' --opacity 0.8 --position bottom --scr 1"
 
-# bun
-export BUN_INSTALL="$HOME/.local/share/reflex/bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-export GEM_HOME="$HOME/gems"
-export PATH="$HOME/gems/bin:$PATH"
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+# run fastfetch at startup
+fastfetch
 
-export PATH="$HOME/.ruby-3.4.4:$PATH"
-alias ruby="$HOME/.ruby-3.4.4/ruby"
-alias gem="$HOME/.ruby-3.4.4/bin/gem"
 
-# run neofetch at startup
-neofetch
+
+test -s ~/.alias && . ~/.alias || true
