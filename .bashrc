@@ -155,19 +155,3 @@ source "$OSH"/oh-my-bash.sh
 # Example aliases
 # alias bashconfig="mate ~/.bashrc"
 # alias ohmybash="mate ~/.oh-my-bash"
-
-#pyenv stuff
-export PATH="$HOME/.pyenv/bin:$PATH"
-eval "$(pyenv init --path)"
-eval "$(pyenv virtualenv-init -)"
-
-
-alias obsidian="~/.obsidian/Obsidian-1.8.10.AppImage"
-alias skr="screenkey --font 'JetBrains Mono' -s small --bg-color '#282a36' --font-color '#f8f8f2' --opacity 0.8 --position bottom --scr 1"
-
-# run fastfetch at startup
-fastfetch
-
-
-
-test -s ~/.alias && . ~/.alias || true
