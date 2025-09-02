@@ -81,11 +81,8 @@ bindsym $mod+shift+f exec --no-startup-id firefox
 # open gedit
 bindsym $mod+shift+g exec --no-start-up-id gedit
 
-# take a screenshot of a window
-bindsym $mod+Shift+2 exec --no-startup-id gnome-screenshot -w
-
-# take a screenshot of a selected area
-bindsym $mod+Shift+3 exec --no-startup-id gnome-screenshot -a
+# take a screenshot of the current window
+bindsym Control+2 exec --no-startup-id sh -c "gnome-screenshot -i"
 
 # change focus
 bindsym $mod+j focus left
