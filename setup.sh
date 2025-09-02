@@ -125,3 +125,6 @@ else
 fi
 
 echo "Setup complete! Please restart your terminal or log out and back in for all changes to take effect."
+
+
+# this is  so awesome man , I am funny lol
