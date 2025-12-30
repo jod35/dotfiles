@@ -19,6 +19,8 @@ cp -r i3/config ~/.config/i3/
 cp -r terminator/config ~/.config/terminator/
 cp -r rofi/config.rasi ~/.config/rofi/
 cp -r picom/picom.conf ~/.config/picom/
+cp .vimrc ~/.vimrc
+cp .bashrc ~/.bashrc
 
 echo "Configuration files copied successfully."
 
