@@ -6,7 +6,7 @@
     background_color = "#1a1b26"
     background_darkness = 1.0
     cursor_color = "#a9b1d6"
-    font = JetBrains Mono NL Semi-Bold 12
+    font = JetbrainsMono 12
     foreground_color = "#a9b1d6"
     show_titlebar = False
     scrollback_infinite = True
