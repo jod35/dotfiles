@@ -180,8 +180,19 @@ bindsym $mod+r mode "resize"
 
 ##################### the bar ######################################################################
 bar {
-    status_command ~/.bumblebee/bumblebee-status -m date time battery cpu disk -t moonlight-powerline
+
+    status_command ~/.bumblebee/bumblebee-status -m datetime battery cpu disk pasink pasource -t moonlight-powerline
     position bottom
+   
+    # workspace numbers 
+    colors{
+      background #141828    
+
+      # item              border  bg       text
+      focused_workspace #515c8e #515c8e #ffffff
+      inactive_workspace #141828 #141828  #8fa9f4
+    
+    }
 }
 ####################################################################################################
 
@@ -193,15 +204,16 @@ set $bg         #1a1b26
 set $bg_dark    #16161e     
 set $fg         #c0caf5     
 set $gray       #565f89     
-set $blue       #7aa2f7     
+set $blue       #515c8e     
 set $violet     #bb9af7     
 set $cyan       #7dcfff     
 set $red        #f7768e     
+set $white      #ffffff
 
 #                   border          background      text            indicator       child_border
-client.focused          $blue           $blue           $bg             $cyan           $blue
-client.focused_inactive $gray           $bg_dark        $gray           $gray           $gray
-client.unfocused        $bg_dark        $bg_dark        $gray           $bg_dark        $bg_dark
+client.focused          $blue           $blue           $white             $cyan           $blue
+client.focused_inactive $gray           $bg_dark        $white           $gray           $gray
+client.unfocused        $bg_dark        $bg_dark        $white           $bg_dark        $bg_dark
 client.urgent           $red            $red            $fg             $violet         $red
 client.placeholder      $bg_dark        $bg_dark        $gray           $bg_dark        $bg_dark
 client.background       $bg
