@@ -7,3 +7,4 @@ esac
 alias cls="clear"
 
 alias postman="~/Downloads/Postman/Postman"
+. "$HOME/.cargo/env"
