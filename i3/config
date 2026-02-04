@@ -50,7 +50,7 @@ bindsym $mod+q kill
 bindsym $mod+Shift+f exec --no-startup-id firefox
 
 # file manager
-bindsym $mod+Shift+n exec dolphin 
+bindsym $mod+Shift+n exec thunar 
 
 # start dmenu (a program launcher)
 # A more modern dmenu replacement is rofi:
