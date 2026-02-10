@@ -2,7 +2,7 @@ if status is-interactive
    fastfetch
    alias cls="clear"
    alias ag="~/Antigravity/antigravity &"
-   alias code="~/code/code"
+   alias code="~/.code/code"
    alias node="/home/jod35/.nvm/versions/node/v24.12.0/bin/node"
    alias npm="/home/jod35/.nvm/versions/node/v24.12.0/bin/npm"
    
