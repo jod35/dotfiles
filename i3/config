@@ -18,7 +18,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
 # use feh to set background on startup
-exec --no-startup-id feh --bg-fill ~/.walls/fav.png
+exec --no-startup-id feh --bg-fill ~/.walls/wall2.jpg
 
 
 # Use pactl to adjust volume in PulseAudio.
@@ -36,7 +36,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec ghostty
 
 # kill focused window
 bindsym $mod+q kill
@@ -223,3 +223,6 @@ title_align center
 
 # Optional: thicker focused border for more neon pop
 # client.focused $blue $blue $fg $cyan $blue pixel 4  ← uncomment if you want pixel + thicker
+
+gaps inner 4px
+gaps outer 4px
