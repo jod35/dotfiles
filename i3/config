@@ -18,7 +18,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
 # use feh to set background on startup
-exec --no-startup-id feh --bg-fill ~/.walls/wall2.jpg
+exec --no-startup-id feh --bg-fill ~/.walls/wall3.jpg
 
 
 # Use pactl to adjust volume in PulseAudio.
@@ -45,10 +45,10 @@ bindsym $mod+q kill
 bindsym $mod+Shift+f exec --no-startup-id firefox
 
 # file manager
-bindsym $mod+Shift+n exec thunar 
+bindsym $mod+Shift+n exec nautilus 
 
 # take a screenshot
-bindsym $mod+o exec xfce4-screenshooter
+bindsym $mod+o exec gnome-screenshot -i
 
 # start dmenu (a program launcher)
 # A more modern dmenu replacement is rofi

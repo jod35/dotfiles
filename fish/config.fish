@@ -14,3 +14,8 @@ if not string match -q -- $PNPM_HOME $PATH
   set -gx PATH "$PNPM_HOME" $PATH
 end
 # pnpm end
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv fish)"
+
+# opencode
+fish_add_path /home/jod35/.opencode/bin
