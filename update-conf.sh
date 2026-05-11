@@ -19,3 +19,9 @@ cp -r ~/.config/picom/ .
 
 echo "fish config ..."
 cp -r ~/.config/fish/ .
+
+echo "updating wallpapers..."
+cp -r ~/.walls/ .
+
+echo "\nDONE!!!!"
+
