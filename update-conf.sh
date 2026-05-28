@@ -23,5 +23,12 @@ cp -r ~/.config/fish/ .
 echo "updating wallpapers..."
 cp -r ~/.walls/ .
 
-echo "\nDONE!!!!"
+echo "Updating fastfetch config ..."
+cp -r ~/.config/fastfetch .
+
+echo "Updating ghostty"
+cp -r ~/.config/ghostty .
+
+
+echo "DONE!!!!"
 
