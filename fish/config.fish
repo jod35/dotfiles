@@ -1,7 +1,7 @@
 if status is-interactive
    fastfetch
    alias cls="clear"
-   alias ag="~/.Antigravity/antigravity"
+   alias ag="~/.Antigravity/antigravity-ide"
    alias code="~/.code/code"
    alias node="/home/jod35/.nvm/versions/node/v24.12.0/bin/node"
    alias npm="/home/jod35/.nvm/versions/node/v24.12.0/bin/npm"
@@ -15,7 +15,6 @@ if not string match -q -- $PNPM_HOME $PATH
 end
 # pnpm end
 
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv fish)"
 
 # opencode
 fish_add_path /home/jod35/.opencode/bin
