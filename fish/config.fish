@@ -5,7 +5,7 @@ if status is-interactive
    alias code="~/.code/code"
    alias node="/home/jod35/.nvm/versions/node/v24.12.0/bin/node"
    alias npm="/home/jod35/.nvm/versions/node/v24.12.0/bin/npm"
-   
+   alias micro="/home/jod35/.micro/micro"   
 end
 
 # pnpm

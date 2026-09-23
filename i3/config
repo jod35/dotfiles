@@ -223,8 +223,4 @@ default_floating_border normal 2
 # Centered & clean title text
 title_align center
 
-# Optional: thicker focused border for more neon pop
-# client.focused $blue $blue $fg $cyan $blue pixel 4  ← uncomment if you want pixel + thicker
 
-gaps inner 4px
-gaps outer 4px
