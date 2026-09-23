@@ -179,7 +179,7 @@ bindsym $mod+r mode "resize"
 bar {
 
     status_command ~/.bumblebee/bumblebee-status -m datetime battery cpu disk pasink pasource -t moonlight-powerline
-    position top
+    position bottom
    
     # workspace numbers 
     colors{
