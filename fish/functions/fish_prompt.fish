@@ -1,0 +1,1 @@
+/home/jod35/.local/share/omf/themes/damin/fish_prompt.fish
