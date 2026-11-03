@@ -8,6 +8,5 @@ This repo contains my setup for the i3 on Linux. Keeping it here because I do no
 4. [fish config](./fish/config.fish)
 5. [fastfetch config](./fastfetch/config.jsonc)
 6. [ghostty config](./ghostty/config)
-7. [niri config](./niri/config.kdl)
-8. [set up script](./setup.sh)
-9. [Config update script](./update-conf.sh)
+7. [set up script](./setup.sh)
+8. [Config update script](./update-conf.sh)
