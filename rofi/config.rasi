@@ -14,8 +14,7 @@ configuration {
     active-background: #92CF9C;
     urgent-background: #D9A58F;
     urgent-foreground: #cc8567;
-    border-color: #454545
-
+    border-color: #454545;
     selected-background: @active-background;
     selected-urgent-background: @urgent-background;
     selected-active-background: @active-background;
