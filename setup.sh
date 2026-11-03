@@ -7,18 +7,12 @@
 echo "Copying configuration files to ~/.config..."
 # Create directories if they don't exist
 
-mkdir -p ~/.config/polybar
 mkdir -p ~/.config/i3
-mkdir -p ~/.config/terminator
 mkdir -p ~/.config/rofi
-mkdir -p ~/.config/picom
 
 # Copy configuration files
-cp -r polybar/config ~/.config/polybar/
 cp -r i3/config ~/.config/i3/
-cp -r terminator/config ~/.config/terminator/
 cp -r rofi/config.rasi ~/.config/rofi/
-cp -r picom/picom.conf ~/.config/picom/
 cp .vimrc ~/.vimrc
 cp .bashrc ~/.bashrc
 
@@ -70,15 +64,6 @@ if ! command -v i3 &> /dev/null; then
     sudo apt-get install -y i3
 else
     echo "i3 is already installed."
-fi
-
-# install nitrogen if not installed
-if ! command -v nitrogen &> /dev/null; then
-    echo "nitrogen could not be found, installing..."
-    sudo apt-get update
-    sudo apt-get install -y nitrogen
-else
-    echo "nitrogen is already installed."
 fi
 
 # get wallpapers from DT
