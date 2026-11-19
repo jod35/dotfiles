@@ -17,8 +17,11 @@ exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
+# launch xrandr config on startup
+exec --no-startup-id .screenlayout/default.sh
+
 # use feh to set background on startup
-exec --no-startup-id feh --bg-fill ~/.walls/balls.jxl
+exec --no-startup-id feh --bg-fill ~/.walls/nebula.jpg
 
 # use picom
 exec --no-startup-id picom --daemon

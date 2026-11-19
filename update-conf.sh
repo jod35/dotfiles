@@ -23,8 +23,5 @@ cp -r ~/.config/fastfetch .
 echo "Updating ghostty"
 cp -r ~/.config/ghostty .
 
-echo "Updating Mango Config"
-cp -r ~/.config/mango .
-
 echo "DONE!!!!"
 
