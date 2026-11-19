@@ -15,6 +15,7 @@ cp -r i3/config ~/.config/i3/
 cp -r rofi/config.rasi ~/.config/rofi/
 cp .vimrc ~/.vimrc
 cp .bashrc ~/.bashrc
+cp .screenlayout ~/.screenlayout
 
 echo "Configuration files copied successfully."
 
@@ -75,9 +76,6 @@ if [ ! -d "$HOME/Pictures/Wallpapers" ]; then
 else
     echo "Wallpapers already exist."
 fi
-
-# set wallpaper using nitrogen
-nitrogen --set-auto "$HOME/.walls/wallpapers" --save
 
 
 # install docker if not installed

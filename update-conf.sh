@@ -23,5 +23,8 @@ cp -r ~/.config/fastfetch .
 echo "Updating ghostty"
 cp -r ~/.config/ghostty .
 
+echo "Updating screen layout setting"
+cp -r ~/.screenlayout .
+
 echo "DONE!!!!"
 
