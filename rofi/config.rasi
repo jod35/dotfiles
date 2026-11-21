@@ -8,15 +8,14 @@ configuration {
 
 * {
     font: "Jetbrains Mono 12";
-    background-color: #2E2E2E;
-    background-alt: #272727;
-    foreground: #ffffff;
-    background-color: #282a36;
-    active-background: #6272a4;
-    urgent-background: #ff5555;
-    urgent-foreground: #282a36;
+    background-color: #282828;
+    background-alt: #3c3836;
+    foreground: #ebdbb2;
+    active-background: #689d6a;
+    urgent-background: #cc241d;
+    urgent-foreground: #504945;
 
-    border-color: #454545;
+    border-color: #504945;
     selected-background: @active-background;
     selected-urgent-background: @urgent-background;
     selected-active-background: @active-background;
@@ -25,6 +24,7 @@ configuration {
 
 
 }
+
 
 #window {
     background-color: @background-color;
